@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-do List</title>
     <link rel="stylesheet" href="vendor/fontawesome-free-5.11.2-web/css/all.css">
+    <link rel="stylesheet" href="css/styles_todolist.css">
 </head>
 
 <body>
     <header>
         <div class="cont_logo">
             <figure>
-                <img src="" alt="">
+                <img class="logo" src="img/4fd5d42991cfcf688365ad3227e0cc31-yellow-check-mark-icon-by-vexels.png"
+                    alt="">
             </figure>
-            <h1>To-do List</h1>
+            <h1>To-doList</h1>
         </div>
         <nav class="cont_nav">
             <a href="" class="nav_item">Tareas</a>
-            <a href="" class="nav_item">Agregar</a>
+            <a href="agregar.html" class="nav_item">Agregar</a>
         </nav>
     </header>
 
@@ -28,37 +30,52 @@
         <div class="no_completadas">
             <h3>Tareas por realizadas</h3>
             <div class="tarea">
-                <h4>Estudiar para examen</h4>
-                <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
-                <h6>Marzo 04 de 2020</h6>
+                <div class="tarea_descripcion">
+                    <h4>Estudiar para examen</h4>
+                    <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
+                    <h6>Marzo 04 de 2020</h6>
+                </div>
                 <div class="cont_iconos">
                     <i class="far fa-trash-alt"></i>
-                    <i class="fas fa-check"></i> 
+                    <i class="fas fa-check"></i>
                 </div>
-                
             </div>
             <div class="tarea">
-                <h4>Ver el partido de futbol</h4>
-                <p>Juega el barsa vs el madrid</p>
-                <h6>Marzo 04 de 2020</h6>
+                <div class="tarea_descripcion">
+                    <h4>Estudiar para examen</h4>
+                    <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
+                    <h6>Marzo 04 de 2020</h6>
+                </div>
                 <div class="cont_iconos">
                     <i class="far fa-trash-alt"></i>
-                    <i class="fas fa-check"></i> 
+                    <i class="fas fa-check"></i>
                 </div>
-            </div>
+            </div>            
         </div>
         <div class="completadas">
-             <h3>Tareas realizadas</h3>
-             <div class="tarea">
-                <h4>Ver el partido de futbol</h4>
-                <p>Juega el barsa vs el madrid</p>
-                <h6>Marzo 04 de 2020</h6>
+            <h3>Tareas realizadas</h3>
+            <div class="tarea">
+                <div class="tarea_descripcion">
+                    <h4>Estudiar para examen</h4>
+                    <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
+                    <h6>Marzo 04 de 2020</h6>
+                </div>
             </div>
         </div>
     </div>
 
     <footer>
-        <small>&copy; 2020 To-do List</small>
+        <div class="foot">
+            <figure>
+                <img class="logo" src="img/4fd5d42991cfcf688365ad3227e0cc31-yellow-check-mark-icon-by-vexels.png"
+                    alt="">
+            </figure>
+            <div class="iconos_redes">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+            </div>
+            <small>&copy; 2020 To-do List</small>
+        </div>           
     </footer>
 </body>
 

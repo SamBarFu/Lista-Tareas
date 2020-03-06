@@ -1,0 +1,60 @@
+
+h1{
+    color: rgb(110, 25, 60);
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+#parraf{
+    color: cornsilk;
+    background-color: chocolate;
+    padding: 2em;
+    border: 3px black solid;
+    border-radius: 5px;
+    width: 50px;
+    justify-content: flex-start;
+}
+
+.fondo{
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-formas-abstractas-triangulo-azul_1035-17551.jpg);
+    background-size: cover;
+    padding: 1em;
+    width: 100px;
+    justify-content: flex-end;
+}
+
+#parraf:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+    color: crimson;
+}
+
+.figura{
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+    transform: rotate(45deg);    
+}
+
+.figura:hover{
+    transform: translateY(50px) rotate(45deg);
+    transition-duration: 2s;
+    transition-delay: 2s;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron{
+    background-image: url(https://image.freepik.com/vector-gratis/fondo-formas-abstractas-triangulo-azul_1035-17551.jpg);
+    background-size: cover;
+}
+
+
+/* .parrafo#parraf{
+    color: salmon;
+} */
+

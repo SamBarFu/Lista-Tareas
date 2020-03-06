@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background-image: url(https://img-cdn.hipertextual.com/files/2017/03/Fondos-de-pantalla-espaciales-44.jpg?strip=all&lossy=1&quality=70&ssl=1);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.cont_logo{
+    display: flex;
+}
+
+nav{
+    padding: 2em;
+}
+
+.nav_item{
+    text-decoration: none;
+    margin: 1em;
+    font-size: 1.5em;  
+    color: antiquewhite;  
+}
+
+.nav_item:hover{
+    color: brown;
+}
+
+.main_container{
+    margin: 2em;
+}
+
+.tarea{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    background-color: rgba(155, 180, 45, 0.5);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.cont_iconos{
+    float: right;
+    margin: 1em;
+}
+
+i{
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+i:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+
+footer{
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.foot{
+
+}
+
+.cont_form{
+    margin: 2em;    
+}
+
+.formulario_agregar{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 3em;
+    background-color: rgba(155, 180, 45, 0.5);
+    border-radius: 10px;
+}
+
+input, textarea{
+    margin: 1em 0;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn_agregar{
+    width: 150px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    color: cornsilk;
+}
+
+.btn_agregar:hover{
+    background-color: cornsilk;
+    color: chocolate;
+}
