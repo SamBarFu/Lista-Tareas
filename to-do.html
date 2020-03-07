@@ -29,38 +29,41 @@
         <hr>
         <div class="no_completadas">
             <h3>Tareas por realizadas</h3>
-            <div class="tarea">
+            <!-- <div class="tarea">
                 <div class="tarea_descripcion">
                     <h4>Estudiar para examen</h4>
                     <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
                     <h6>Marzo 04 de 2020</h6>
                 </div>
                 <div class="cont_iconos">
-                    <i class="far fa-trash-alt"></i>
-                    <i class="fas fa-check"></i>
+                    <i class="far fa-trash-alt" onclick="borrarTarea(this)"></i>
+                    <i class="fas fa-check" onclick="completarTarea(this)"></i>
                 </div>
             </div>
-            <div class="tarea">
+            <div class="tarea" id="segundaTarea">
                 <div class="tarea_descripcion">
                     <h4>Estudiar para examen</h4>
                     <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
                     <h6>Marzo 04 de 2020</h6>
                 </div>
                 <div class="cont_iconos">
-                    <i class="far fa-trash-alt"></i>
-                    <i class="fas fa-check"></i>
+                    <i class="far fa-trash-alt" onclick="borrarTarea(this)"></i>
+                    <i class="fas fa-check" onclick="completarTarea(this)"></i>
                 </div>
-            </div>            
+            </div>   -->          
         </div>
         <div class="completadas">
             <h3>Tareas realizadas</h3>
-            <div class="tarea">
+            <!-- <div class="tarea">
                 <div class="tarea_descripcion">
                     <h4>Estudiar para examen</h4>
                     <p>Tengo que estudiar para el examen de Aplicaciones graficas</p>
                     <h6>Marzo 04 de 2020</h6>
                 </div>
-            </div>
+                <div class="cont_iconos">
+                    <i class="far fa-trash-alt" onclick="borrarTarea(this)"></i>
+                </div>
+            </div> -->
         </div>
     </div>
 
@@ -77,6 +80,39 @@
             <small>&copy; 2020 To-do List</small>
         </div>           
     </footer>
+    <script src="js/index.js">
+        /* var x = 45;
+        var y = "45";
+
+
+        console.log(null !== undefined);
+        console.log("Hola Mundo");
+
+        const objeto = [
+            {
+                nombre:"Hamilton",
+                edad: 34,
+                direccion: "La cañada"
+            },
+            {
+                nombre: "Saul",
+                edad: 50,
+                direccion: "El Mayoreo"
+            }
+        ];
+
+
+        objeto.forEach(persona => console.log('Mi nombre es ' + persona.nombre + ' y mi edad es ' + persona.edad));
+
+        objeto.filter(persona => (persona.edad >= 40 ? console.log(persona): null) );
+
+        function miFuncion(nombre, altura = 45){
+            console.log(nombre, altura);
+        }
+
+        miFuncion('Yamil') */
+
+    </script>
 </body>
 
 </html>

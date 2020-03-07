@@ -1,9 +1,17 @@
 
 h1{
-    color: rgb(110, 25, 60);
+    color: rgba(123,23,54,)0.5;
     font-size: 3em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
+}
+
+a{
+    color: blue;
+}
+
+.navbar-brand{
+    
 }
 
 #parraf{
@@ -12,7 +20,7 @@ h1{
     padding: 2em;
     border: 3px black solid;
     border-radius: 5px;
-    width: 50px;
+    width: 50;
     justify-content: flex-start;
 }
 

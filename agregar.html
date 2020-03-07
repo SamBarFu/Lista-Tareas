@@ -23,14 +23,14 @@
     <div class="cont_form">
         <h2>Agregar tarea</h2>
         <hr>
-        <form action="" class="formulario_agregar">
+        <form class="formulario_agregar">
             <label for="tarea">Tarea</label>
             <input type="text" name="input_tarea" id="tarea">
             <label for="descripcion">Descripcion</label>
             <textarea name="txt_descripcion" id="descripcion" cols="30" rows="10"></textarea>
             <label for="fecha">Fecha limite</label>
             <input type="date" name="input_date" id="fecha">  
-            <button class="btn_agregar"><i class="fas fa-plus"></i>Agregar</button>          
+            <button class="btn_agregar" onclick="agregarTarea(event)"><i class="fas fa-plus"></i>Agregar</button>          
         </form>
     </div>
 
@@ -47,5 +47,6 @@
             <small>&copy; 2020 To-do List</small>
         </div>           
     </footer>
+    <script src="js/agregar.js"></script>
 </body>
 </html>
